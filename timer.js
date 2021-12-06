@@ -11,7 +11,8 @@
 let countdown;// setInterval function for countdown clock
 let serviceInSession;// seTimeout function for when event is Live
 const clock = document.getElementById('clock');// div that controls the clock container 
-const livestreamButton = document.getElementById('door');// div that controls the button for the user to click to enter the live stream
+const livestreamButton = document.getElementById('door');
+const livestreamButtonIn = document.getElementById('doorin');// div that controls the button for the user to click to enter the live stream
 const daysUnit = document.querySelector('.days');// span element that displays the amount of days
 const hoursUnit = document.querySelector('.hours');// span element that displays the amount of hours
 const minutesUnit = document.querySelector('.minutes');// span element that displays the amount of minutes
