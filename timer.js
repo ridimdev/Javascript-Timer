@@ -17,7 +17,7 @@ const hoursUnit = document.querySelector('.hours');// span element that displays
 const minutesUnit = document.querySelector('.minutes');// span element that displays the amount of minutes
 const secondsUnit = document.querySelector('.seconds');// span element that displays the amount of seconds
 
-const startDate = new Date(2021, 11, 06, 14, 00, 00).getTime();// initial date and time the countdown clock started from (Year, Month, Day, Hours, Minutes, Seconds,)
+const startDate = new Date(2021, 11, 06, 11, 00, 00).getTime();// initial date and time the countdown clock started from (Year, Month, Day, Hours, Minutes, Seconds,)
 startDate > Date.now() ? timer(startDate) : calculateFutureDate(startDate);// conditional statement that decides if the timer function should start with the start date or calculate another date
 // timer function takes in a date parameter in milliseconds
 function timer(date){
@@ -68,6 +68,9 @@ function calculateFutureDate (dateTochange){
 		//console.log("new: "+dateTochange);		
 }
 // liveStream function changes the webpage to the webpage where the live stream is hosted
+function liveStreamTest (){
+	window.location.assign("https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTIxNGEwMmQtZWEwOC00NGMyLWJkNjgtOTAzYjhhYjI2MmI3%40thread.v2/0?context=%7b%22Tid%22%3a%220e0cb060-09ad-49f5-a005-68b9b49aa1f6%22%2c%22Oid%22%3a%22937d90b7-afde-411d-b8c8-4c8c300c22c7%22%7d");
+}
 function liveStream (){
 	window.location.assign("https://teams.microsoft.com/l/meetup-join/19%3ameeting_Mjk4OTg3NWItNWJkOC00ZjU2LWIyZTMtNjA0MDU1Nzg3Yzdk%40thread.v2/0?context=%7b%22Tid%22%3a%225310aa0c-d06a-4bc2-89ea-6d5a9260acd2%22%2c%22Oid%22%3a%229a28051e-b016-436a-9386-0ceb3484f3e1%22%7d");
 }
