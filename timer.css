@@ -34,6 +34,9 @@ p.action_caption{
 #door{
 	text-align: center;
 }
+#doorin{
+	text-align: center;
+}
 .call_to_action_button{
 	margin-top: 40px;
 	border-radius: 20px;
