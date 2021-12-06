@@ -69,5 +69,5 @@ function calculateFutureDate (dateTochange){
 }
 // liveStream function changes the webpage to the webpage where the live stream is hosted
 function liveStream (){
-	window.location.assign("https://github.com/grupoebim?tab=projects");
+	window.location.assign("https://teams.microsoft.com/l/meetup-join/19%3ameeting_Mjk4OTg3NWItNWJkOC00ZjU2LWIyZTMtNjA0MDU1Nzg3Yzdk%40thread.v2/0?context=%7b%22Tid%22%3a%225310aa0c-d06a-4bc2-89ea-6d5a9260acd2%22%2c%22Oid%22%3a%229a28051e-b016-436a-9386-0ceb3484f3e1%22%7d");
 }
